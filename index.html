@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>John Karam | Portfolio</title>
+
+  <!-- Meta: simple, human, and search-friendly -->
+  <meta name="description" content="I'm John Karam, a software engineer who builds practical automation for fintech: CI/CD, secure releases, and integrations that help teams ship with confidence." />
+  <meta name="keywords" content="John Karam, software engineer, fintech, automation, DevOps, CI/CD, Jenkins, C#, Python, React, HashiCorp Vault" />
+  <meta property="og:title" content="John Karam | Software Engineer" />
+  <meta property="og:description" content="I build automation and integrations that make finance teams faster and calmer." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-pages-url.example/" />
+  <meta name="theme-color" content="#0D1B2A" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Background cursor trail -->
+
+  <div class="content">
+    <!-- =====================
+         Header / Navigation
+    ====================== -->
+    <header class="nav">
+      <div class="nav-wrap">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-text">John Karam</span>
+        </div>
+        <nav class="menu" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#certs">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- =============
+         Hero
+    ============== -->
+    <main>
+     <section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="hero-text">
+    <span class="badge">
+      <span class="dot" aria-hidden="true"></span>
+      Fintech automation & integrations
+    </span>
+
+<h1 id="hero-title" class="headline chroma-svg" aria-label="John Karam">
+  <span class="sr-only">John Karam</span>
+  <svg class="chroma-svg-el" viewBox="0 0 1000 160" role="img" aria-hidden="true">
+    <defs>
+      <!-- Blue-leaning gradient (navy → royal → electric → cyan) -->
+      <linearGradient id="chroma-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%"   stop-color="#0b3892"/>  <!-- deep royal -->
+        <stop offset="25%"  stop-color="#1b66ff"/>  <!-- electric blue -->
+        <stop offset="50%"  stop-color="#00b3ff"/>  <!-- bright azure -->
+        <stop offset="75%"  stop-color="#22d3ee"/>  <!-- cyan/teal -->
+        <stop offset="100%" stop-color="#0b3892"/>  <!-- loop back -->
+        <!-- animate the sweep -->
+        <animate attributeName="x1" from="0%" to="100%" dur="8s" repeatCount="indefinite" />
+        <animate attributeName="x2" from="100%" to="200%" dur="8s" repeatCount="indefinite" />
+      </linearGradient>
+
+      <!-- Optional: soft blue glow (subtle) -->
+      <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+
+    <text x="0" y="120" fill="url(#chroma-grad)" filter="url(#soft-glow)"
+          font-family="Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Arial, sans-serif"
+          font-weight="900" font-size="140">
+      John Karam
+    </text>
+  </svg>
+</h1>
+
+
+
+    <p class="kicker">Software Engineer · Expert in Fintech</p>
+
+    <p class="sub">
+      I build CI/CD pipelines and backend systems that are reliable, secure, and easy to maintain.
+      My focus is integrations that help real teams work better together and ship faster with fewer surprises.
+    </p>
+
+    <nav class="cta" aria-label="Primary calls to action">
+      <a class="btn btn-primary" href="#projects">View my work</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </nav>
+  </div>
+
+<div class="hero-visual game" aria-label="Mini game: catch the blue nodes">
+  <div class="game-hud">
+    <button class="play-btn" id="playBtn" aria-label="Start game">Play</button>
+    <div class="stats" aria-live="polite">
+      <strong><span id="score">0</span></strong> pts •
+      <span id="time">20</span>s •
+      Best <strong><span id="best">0</span></strong>
+    </div>
+  </div>
+
+  <div class="game-area" id="gameArea" role="application" tabindex="0"
+       aria-label="Game area. Click or tap glowing nodes to score.">
+  </div>
+
+  <p class="hint">
+    Click / tap the glowing nodes. Chain fast hits for combos!
+  </p>
+</div>
+
+</section>
+
+
+      <!-- =============
+           About
+      ============== -->
+      <section id="about">
+        <h2 class="section-title">Who I am</h2>
+
+        <p>
+          I’m a software engineer who found a niche where finance meets automation.
+          Most of my work is helping teams release faster with fewer headaches—and with systems they can trust.
+        </p>
+
+        <p>
+          I like taking manual, fragile processes and turning them into something simple, consistent, and scalable.
+          I work closely with clients and cross‑functional teams because the best solutions come from collaboration, not just code.
+        </p>
+
+        <p>
+          At the end of the day, I enjoy solving tough problems in a way that feels straightforward and sustainable.
+        </p>
+      </section>
+
+      <!-- =============
+           Projects
+      ============== -->
+      <section id="projects">
+        <h2 class="section-title">Highlighted work</h2>
+
+        <div class="card-grid">
+          <!-- RiskMatrix -->
+          <article class="card">
+            <div class="meta">Associate Software Engineer · Sep 2024 – Present</div>
+            <h3>RiskMatrix — Enterprise release automation</h3>
+            <ul class="list">
+              <li>Worked with client teams and stakeholders to shape requirements and land integrations.</li>
+              <li>Built CI/CD with Jenkins and Python → about 70% faster delivery and consistent releases.</li>
+              <li>Added SonarCloud and xUnit for quality gates and fewer regressions.</li>
+              <li>Set up HashiCorp Vault and repeatable environments for dependable deployments.</li>
+              <li>Wrote Postman collections, Docker guides, and runbooks to speed up onboarding.</li>
+            </ul>
+          </article>
+
+          <!-- Melanion -->
+          <article class="card">
+            <div class="meta">Software Engineer · Jun 2023 – Jun 2024</div>
+            <h3>Melanion Capital — Financial tools modernization</h3>
+            <ul class="list">
+              <li>Moved tools from VBA to C#/EF/SQL Express; integrated Bloomberg API.</li>
+              <li>Automated routine work with Selenium and Puppeteer.</li>
+              <li>Improved WPF trader apps for faster, more responsive screens.</li>
+            </ul>
+          </article>
+
+          <!-- Game Galaxy -->
+          <article class="card">
+            <div class="meta">Bootcamp Project · Apr 2024 – Jul 2024</div>
+            <h3>Game Galaxy Exchange — Secure asset platform</h3>
+            <ul class="list">
+              <li>React + Redux app with JWT authentication.</li>
+              <li>Node.js/Express backend with AivenDB.</li>
+              <li>Standard Git/GitHub workflow for collaboration.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- =============
+           Skills
+      ============== -->
+      <section id="skills">
+        <h2 class="section-title">What I work with</h2>
+        <div>
+          <span class="pill">C#</span>
+          <span class="pill">Python</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">SQL</span>
+          <span class="pill">React</span>
+          <span class="pill">Docker</span>
+          <span class="pill">Jenkins</span>
+          <span class="pill">HashiCorp Vault</span>
+          <span class="pill">Git/GitHub</span>
+          <span class="pill">SonarCloud</span>
+          <span class="pill">CI/CD</span>
+          <span class="pill">Financial APIs</span>
+          <span class="pill">Automation pipelines</span>
+        </div>
+      </section>
+
+      <!-- =============
+           Certifications
+      ============== -->
+      <section id="certs">
+        <h2 class="section-title">Certifications</h2>
+
+        <div class="card-grid">
+          <div class="card">
+            <h3>Responsive Web Design</h3>
+            <div class="meta">freeCodeCamp</div>
+          </div>
+          <div class="card">
+            <h3>DP‑900</h3>
+            <div class="meta">Microsoft Azure Data Fundamentals</div>
+          </div>
+          <div class="card">
+            <h3>AI‑900</h3>
+            <div class="meta">Microsoft Azure AI Fundamentals</div>
+          </div>
+          <div class="card">
+            <h3>AZ‑900</h3>
+            <div class="meta">Microsoft Azure Fundamentals</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============
+           Contact
+      ============== -->
+      <section id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p><a href="mailto:johnkaram03@gmail.com">johnkaram03@gmail.com</a></p>
+          </div>
+
+          <div class="contact-card">
+            <h3>LinkedIn</h3>
+            <p><a href="https://linkedin.com/in/john-karam" target="_blank" rel="noopener">linkedin.com/in/john-karam</a></p>
+          </div>
+
+          <div class="contact-card">
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/96181248315?text=Hi%20John%2C%20I%27d%20like%20to%20connect%20about%20a%20project." target="_blank" rel="noopener">+961 81 248 315</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © 2025 John Karam
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
